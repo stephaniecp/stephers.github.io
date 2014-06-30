@@ -1,0 +1,173 @@
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+	    html { height: 100% }
+	    body { height: 100%; margin: 0; padding: 0 }
+	    #map-canvas { height: 70% }
+	    .scrollFix {
+	    	line-height: 1.35;
+	    	overflow: hidden;
+	    	white-space: nowrap;
+	    }
+    </style>
+
+
+	<script src="/js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?"></script>
+	<script type="text/javascript">
+		//key=AIzaSyBaxFJL7oYa6TUodtu11Ul80uHy4iHW8tw
+
+		var map = null;
+		var storeLocatorMarkersById = new Array();
+
+		var lastMarker = null;
+		var lastInfoWindow = null;
+
+
+		function initialize() {
+			var mapOptions = {
+				center: new google.maps.LatLng(-34.397, 150.644),
+				zoom: 8
+			};
+			map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+			//google.maps.event.addListener(map, 'idle', function(){
+			google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
+				console.info("Map Loaded");
+				addCompleteMarker(-25.3633,132.044922, "<div class='scrollFix'>Hello 1</div>");
+				addCompleteMarker(-25.3634,131.044922, "<div class='scrollFix'>Hello 2</div>");
+				addCompleteMarker(-25.3635,131.044922, "<div class='scrollFix'>Hello 3</div>");
+				addCompleteMarker(-25.3636,132.044922, "<div class='scrollFix'>Hello 4</div>");
+			});	
+
+			map.setCenter(new google.maps.LatLng(-24.86,131.54));	
+
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+		function showMarker1() {
+			var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+
+			// To add the marker to the map, use the 'map' property
+			marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title:"A Marker!"
+			});
+			marker.setMap(map);
+			map.setCenter(myLatlng);
+		}
+
+		function showInfoWindow1() {
+			infowindow = new google.maps.InfoWindow({
+			    content: "<div class='scrollFix'>Howdy Chen</div>"
+			});
+			infowindow.open(map,marker);
+
+		}
+
+		function addCompleteMarker(mLat, mLng, mContent) {
+			var myLatlng = new google.maps.LatLng(mLat, mLng);
+
+			// To add the marker to the map, use the 'map' property
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title:"A Marker!"
+			});
+			marker.setMap(map);
+
+			var infowindow = new google.maps.InfoWindow({
+			    content: mContent
+			});
+
+			google.maps.event.addListener(marker, "click", function() {
+				console.info("I am a marker and was clicked " + marker.position);
+				infowindow.open(map,marker);
+			});
+
+			//technique 1
+			var markerId1 = mLat + "," + mLng;
+			//technique 2
+			var markerId2 = marker.position.lat() + "," + marker.position.lng();
+			//technique 3
+			var markerId3 = makeMarkerId(mLat, mLng);
+			//technique 4
+			var markerId4 = makeMarkerId(marker.position.lat(), marker.position.lng());
+
+			console.info("Marker variation: 1:" + markerId1 + " 2:" + markerId2 + " 3:" + markerId3 + " 4:" + markerId4);
+
+			//$("#map-controls").append("<a href='#' onclick=\"clickOnMarkerId('" + markerId3 + "')\">" + markerId3 + "</a><br />");
+
+			$("#map-controls").append("<a href='#' onclick=\"clickOnMarkerByLatLng(" + mLat + "," + mLng + ")\">" + markerId3 + "</a><br />");
+
+
+			registerMarkerById(markerId4, marker);
+
+			lastMarker = marker;
+			lastInfoWindow = infowindow;
+		}
+
+	function makeMarkerId(mLat, mLng) {
+		return standardizePrecisionFloat(mLat) + "," + standardizePrecisionFloat(mLng);
+	}
+
+	function standardizePrecisionFloat(floatVal) {
+		return Number((floatVal).toFixed(4)); //This may need to be adjusted to a number higher than 4
+	}
+
+	function registerMarker(newMarker) {
+		var markerId = makeMarkerId(newMarker.position.lat(), newMarker.position.lng());
+		registerMarkerById(markerId, newMarker);
+	}
+
+	function registerMarkerById(markerId, newMarker) {
+		storeLocatorMarkersById[markerId] = newMarker;
+		console.info("registered marker id: '" + markerId + "' for marker at position: '" + newMarker.position + "'");
+	}
+
+	function clickOnMarkerByLatLng(mLat, mLng) {
+		var markerId = makeMarkerId(mLat, mLng);
+		clickOnMarkerId(markerId);
+	}
+
+	function clickOnMarkerId(markerId) {
+		var foundMarker = storeLocatorMarkersById[markerId];
+		if (typeof foundMarker != 'undefined') {
+			console.info("Found marker id: '" + markerId + "'' for marker at position: '" + foundMarker.position + "'");
+			clickOnMarker(foundMarker);
+		} else {
+			console.info("No marker found for '" + markerId + "'");
+		}
+	}
+
+	function clickOnMarker(aMarker) {
+		//GEvent.trigger(markers[i], 'click');
+		google.maps.event.trigger(aMarker, 'click');
+	}
+
+
+		$(document).ready(function () {
+			console.info("Page Loaded");
+		})
+
+
+
+	</script>
+
+</head>
+<body>
+
+	<div id="map-canvas"></div>
+
+	<div id="map-controls">
+
+		<input type="button" value="Show Marker" onclick="showMarker1()" />
+		<input type="button" value="Show Info window" onclick="showInfoWindow1()" />
+
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+---
+layout: basic_bs
+title:  Earth Wandering Photo Loader Tool
+flickrkey: 2105c3f58a7d85488a10f2db6c151be1
+flickrsecret: 49c062ce5df1d77f 
+flickruserid: 100330886@N04
+samplephotoset: 72157635232920260
+---
+
+<script src="/js/phototools_0_1.js"></script>
+<script type="text/javascript">
+var flickrbase = 'http://api.flickr.com/services/rest/?jsoncallback=?';
+
+$(document).ready(function() {
+
+	var userid = $.QueryString["userid"];
+	var flickrkey = $.QueryString["flickrkey"];
+	var setid = $.QueryString["setid"];
+
+	if (userid != undefined && flickrkey != undefined && setid != undefined) {
+		loadImgsForPhotoset(setid, userid, flickrkey);
+	} else if (userid != undefined && flickrkey != undefined) {
+		loadPhotosetList(flickrkey, userid, $('#photosets'));   
+	} else {
+		userid = "{{ page.flickruserid }}";
+		flickrkey = "{{ page.flickrkey }}";
+		loadPhotosetList(flickrkey, userid, $('#photosets'));   
+	}
+
+	
+});
+
+
+</script>
+
+<div id="photosets">
+
+</div>
+
+<div id="photostream">
+
+</div>

@@ -1,0 +1,326 @@
+---
+layout: basic_bs
+title:  Earth Wandering Translatortron 2000
+googkey: AIzaSyAbPI7QmnMEU5C_Go_BcATMX2a60A4HAOw
+
+---
+
+<script src="/js/jquery.cookie.js"></script>
+
+<script type="text/javascript">
+
+var devmode = false;
+
+var leftLanguage = "en";
+var leftTitle = "English";
+
+var rightLanguage = "fr";
+var rightTitle = "Français";
+
+var lastresponse = null;
+
+var wordRefId = 0;
+
+$(document).ready(function() {
+	if (devmode) {
+		$("body").prepend("<h1>DEVMODE ON</h1>");
+	}
+
+	$("#leftInputTextArea").keypress(function(event){
+		if(event.keyCode == 13){
+			translateUserTextLeft();
+			event.preventDefault();
+			return false;
+		}
+	});
+	
+	$("#rightInputTextArea").keypress(function(event){
+		if(event.keyCode == 13){
+			translateUserTextRight();
+			event.preventDefault();
+			return false;
+		}
+	});
+
+	$("#leftTitle").text(leftTitle);
+	$("#rightTitle").text(rightTitle);
+	
+	var queryEn = $.QueryString["en"];
+	var queryFr = $.QueryString["fr"];
+
+	var userapikey = $.cookie("usergoogletranslateapikey");
+	if (userapikey) {
+		console.log("Found previously entered user api key.");
+		$("#googleapikey")[0].value = userapikey;
+	} else {
+		console.log("Did NOT find previously entered user api key.");
+		$("#googleapikey")[0].value = $("#googleapikey")[0].title;
+	}
+	
+	if(queryEn) {
+		$("#leftInputTextArea")[0].value = queryEn;
+		$("#leftSubmit").click();
+		translateUserTextLeft();
+	} else if (queryFr) {
+		$("#rightInputTextArea")[0].value = queryFr;
+		translateUserTextRight();
+	} else {
+		//show the old translation values for convenience
+		var lastTranslatedLeft = $.cookie("lastTranslatedLeft");
+		if (lastTranslatedLeft) {	
+			$("#leftInputTextArea")[0].value = lastTranslatedLeft;
+		}
+		var lastTranslatedRight = $.cookie("lastTranslatedRight");
+		if (lastTranslatedRight) {	
+			$("#rightInputTextArea")[0].value = lastTranslatedRight;
+		}
+	}
+});
+
+/**
+User initiated translate function
+*/
+function translateUserTextLeft() {	
+	var userinput = $("#leftInputTextArea")[0].value;
+	requestTranslation(
+		userinput,
+		leftLanguage,
+		rightLanguage,
+		function(text) {
+			recordTranslation(userinput, text);
+			$("#rightInputTextArea")[0].value = urlDecode(text);
+		}
+	);
+}
+
+function translateUserTextRight() {	
+	var userinput = $("#rightInputTextArea")[0].value;
+	requestTranslation(
+		userinput, 
+		rightLanguage,
+		leftLanguage, 
+		function(text) {
+			recordTranslation(text, userinput);
+			$("#leftInputTextArea")[0].value = urlDecode(text);
+		}
+	);
+}
+
+var historyCount = 1;
+
+function recordTranslation(left, right) {
+	//console.log("left: " + left + " right: " + right);
+
+	$.cookie("lastTranslatedLeft", left);
+	$.cookie("lastTranslatedRight", right);
+	
+	var leftAction = turnEachWordIntoActionHtml(left, "left");
+	var rightAction = turnEachWordIntoActionHtml(right, "right");
+	
+	var resultsArea = $("#userhistory");	
+	var resultsRow = $('<div />');
+	resultsRow.attr("id", "resultsRow_" + historyCount);
+	resultsRow.attr("style", "border: 1px solid gray; padding: 5px; margin: 5px;");
+	resultsArea.prepend(resultsRow);
+
+	var resultsLeft = $("<div />");
+	resultsLeft.attr("id", "resultsLeft_" + historyCount);
+	resultsLeft.attr("style", "display: inline-block; width: 40%;");
+	resultsLeft.html(leftAction);
+	resultsRow.append(resultsLeft);
+	
+	var resultsRight = $("<div />");
+	resultsRight.attr("id", "resultsRight_" + historyCount);
+	resultsRight.attr("style", "display: inline-block; width: 40%;");
+	resultsRight.html(rightAction);	
+	resultsRow.append(resultsRight);
+		
+	historyCount++;
+}
+
+function urlEncode(unencodedText) {
+	var result = encodeURIComponent(unencodedText);
+	//console.log("url encoded text: " + result);
+	return result;
+}
+
+function urlDecode(encodedText) {
+	return $("<span>" + encodedText + "</span>").text();
+}
+
+function turnEachWordIntoActionHtml(plainText, langPosition) {
+	var words = plainText.split(" ");
+	var result = $("<span />");
+	for(var index in words) {
+		var word = words[index];
+		
+		wordRefId++;
+		
+		var wordup = $("<span />");
+		result.append(wordup).append(" ");
+		wordup.attr("language", langPosition);
+		wordup.attr("id", "wordparent" + wordRefId);
+		wordup.hover(
+			function(wordelement) {
+				console.log("Entering: " + $(wordelement.delegateTarget).html());
+				$(wordelement.delegateTarget).find("a[name='wordref']").show();
+			}, 
+			function(wordelement) {
+				console.log("Leaving: " + $(wordelement.delegateTarget).html());
+				$(wordelement.delegateTarget).find("a[name='wordref']").hide();
+			}
+		);
+
+		var worddown = $("<span />");
+		wordup.append(worddown);
+		worddown.attr("onclick","segmentTranslate(this)");
+		worddown.attr("language", langPosition);
+		worddown.attr("id", "word" + wordRefId);
+		worddown.html(word);
+		
+		var wordref = $("<a />");
+		wordup.append(wordref);
+		wordref.attr("name","wordref");
+		wordref.attr("style", "display: none;");
+		wordref.html('<img title="see more" src="/assets/fff/icons/add.png" />');
+		wordref.attr("target", "_blank");
+		var wordreflang = ((langPosition == "left") ? leftLanguage + rightLanguage : rightLanguage + leftLanguage);		
+		//console.log("For word: " + word + " with langPosition: " + langPosition + " word ref langcode: " + wordreflang);
+		wordref.attr("href", "http://www.wordreference.com/" + wordreflang + "/" + word);		
+	}
+	
+	return result;
+}
+
+function segmentTranslate(node) {
+	var wordNode = $(node);
+	var language = wordNode.attr("language");
+	var text = wordNode.text();
+
+	var from = null;
+	var to = null;	
+	if (language == "left") {
+		//console.log("translating left word: " + text);
+		from = leftLanguage;
+		to = rightLanguage;
+	} else if (language == "right") {
+		//console.log("translating right word: " + text);
+		from = rightLanguage;
+		to = leftLanguage;
+	}
+	requestTranslation(text, from, to, function(resultText) {
+		wordNode.attr("title", resultText);
+		wordNode.html(text + " (" + resultText + ")");
+		console.log("single word translation: " + text + " --- to: --- " + resultText);
+	});	
+}
+
+function requestTranslation(unencodedText, fromLangId, toLangId, resultHandler) {
+	lastresponse = null;
+	
+	var mykey = '{{ page.googkey }}';
+	var theirkey = $('#googleapikey')[0].value;
+	var usekey = mykey;
+	if (theirkey.indexOf("Please") == -1 && theirkey != "") {
+		console.log("Using user entered key: " + theirkey);
+		$.cookie("usergoogletranslateapikey", theirkey);
+		usekey = theirkey;
+	} else {
+		$("#googleapikey")[0].value = $("#googleapikey")[0].title;
+		console.log("Using earthwandering key: " + mykey);
+		$.cookie("usergoogletranslateapikey", "");
+	}	
+	
+	if (devmode) {
+		console.log("Making fake translation because in devmode of: " + unencodedText); 
+		resultHandler("fako translato: " + unencodedText);
+	} else {
+		
+		var encodedText = urlEncode(unencodedText);
+		
+		console.log("Making actual api call for translation of: " + unencodedText);
+
+		var translateurl = "https://www.googleapis.com/language/translate/v2?key=" + usekey + "&source=" + fromLangId + "&target=" + toLangId + "&q=" + encodedText;
+
+		jQuery.ajax({
+			type: "GET",
+			url: translateurl,
+			dataType: "json",
+			success: function(response){
+				lastresponse = response;
+				resultHandler(response.data.translations[0].translatedText);
+			},
+			error: function(error){
+				alert("Google Translate API Key May Not Be Working\nError translating: " + error);
+				console.log(error);
+			}
+		});		
+	}
+}
+
+/**
+Approach for QueryString access from: http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values
+Usage:
+$.QueryString["param"]
+**/
+(function($) {
+    $.QueryString = (function(a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=');
+            if (p.length != 2) continue;
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split('&'))
+})(jQuery);
+</script>
+
+<div id="shownotes">
+	<a style="font-size: .8em;" onclick="$('#notes').show(); $('#shownotes').hide()">Show Notes</a>
+</div>
+
+<div style="display:none;" id="notes">
+	<h3>Features of the Translatortron2000:</h3>
+	<ol>
+		<li>A history of each translation is shown in a list</li>
+		<li>You can click on the individual words in the translation results (English or French) and get a single word translation</li>	
+		<li>You can get more in depth information about each word in the translation history by hovering over the word and clicking on the plus sign, which will take you to wordreference.com for that word.
+		<li>
+			You can do a quick translation when you load the page by using an address like:<br />
+			http://earthwandering.com/util/translatortron2000.html?en=Hello <br />
+			or <br />
+			http://earthwandering.com/util/translatortron2000.html?fr=Bonjour <br />
+		</li>			
+	</ol>
+	<p>
+		The cost is $.01 per 500 characters, and I have it limited to $1.00/day.  If you'd like to use this page, please get your own Google Translate API key here: <a href="https://developers.google.com/translate/v2/pricing">https://developers.google.com/translate/v2/pricing</a>
+	</p>
+</div>
+
+<div id="googleapikeyarea">
+Your Google Translate API Key: 
+<input type="text" size="55" id="googleapikey" title="Please provide your own Google Translate API Key" value=""/>
+</div>
+
+<div id="userinputrow" style="padding: 5px;">
+	<div id="leftInputDiv" style="display: inline-block; width: 40%;">
+		<h1 id="leftTitle"></h1>
+		<textarea id="leftInputTextArea" rows="3" cols="70"></textarea>
+	</div>
+	<div id="rightInputDiv" style="display: inline-block; width: 40%;">
+		<h1 id="rightTitle"></h1>
+		<textarea id="rightInputTextArea" rows="3" cols="70"></textarea>
+	</div>
+	
+</div>
+
+<div id="userhistory">
+
+</div>
+
+
+
+

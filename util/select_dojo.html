@@ -1,0 +1,75 @@
+---
+layout: basic_bs
+title:  Select Box Dojo
+---
+
+
+<select id="car">
+  <option value="volvo1">Volvo</option>
+  <option value="saab1">Saab</option>
+  <option value="mercedes1">Mercedes</option>
+  <option value="audi1">Audi</option>
+</select>
+
+<div>
+	<input type="button" id="showvalues" value="Show Values" />
+	<input type="button" id="clear" value="Clear" />
+	<input type="button" id="setvalues" value="Set Values" />
+</div>
+<div>
+	<input type="button" id="setbyoption" value="Set Value By Option" />
+</div>
+
+<div id="output">
+
+</div>
+
+
+<script type="text/javascript">
+$('#setbyoption').on('click', setByOption);
+$('#showvalues').on('click', showAllValues);
+$('#clear').on('click', logClear);
+$('#setvalues').on('click', function() {
+	//All these options work to set a value:
+
+	//$('#car').val('saab1');
+	//$('#car')[0].value = 'mercedes1';
+	//$('#car option[value=audi1]').attr("selected", true);
+	//$('#car option[value=audi1]').attr("selected", '');
+	$('#car option[value=audi1]').prop("selected", true);
+	
+
+	//All these options work to trigger the change event
+
+	//$('#car').trigger('change');
+	$('#car').change();
+});
+
+$('#car').on('change', function() {
+	//logClear();
+	logIt("CHANGE! Car changed to: " + $('#car').val());
+});
+
+function setByOption() {
+	var css = "#car option:contains('Audi')";
+	$(css).prop("selected", true).parent().change();
+
+}
+
+function showAllValues() {
+	logIt(".val: " + $('#car').val());
+	logIt(".value: " + $('#car')[0].value);
+	logIt(":selected text: " + $('#car :selected').text());
+}
+
+function logIt(message) {
+	console.log(message);
+	$('#output').append("<p>" + message + "<p>");
+}
+
+function logClear() {
+	$('#output').text("");
+}
+
+</script>
+

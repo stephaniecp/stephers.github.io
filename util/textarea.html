@@ -1,0 +1,21 @@
+---
+layout: basic_bs
+title:  TextArea Event Tester
+googkey: AIzaSyAbPI7QmnMEU5C_Go_BcATMX2a60A4HAOw
+---
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$("#leftInputTextArea").keypress(function(event){
+		if(event.keyCode == 13){
+			event.preventDefault();
+			return false;
+		}
+	});
+});
+
+</script>
+
+
+		<textarea id="leftInputTextArea" rows="2" cols="60"></textarea>

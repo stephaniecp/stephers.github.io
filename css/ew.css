@@ -1,0 +1,140 @@
+
+.jumbotron {
+	//background-image: url('http://farm8.staticflickr.com/7392/9778101904_01686ebe4c_b.jpg');
+	background-image: url('http://farm8.staticflickr.com/7337/9566185766_66834d821f_b.jpg');
+	background-repeat: no-repeat;
+	background-color: #CCCCCC;
+	background-size: 100% 100%;
+	
+	margin-bottom: 10px !important;
+}
+
+span.awesome {
+	display: inline-block;
+	background:transparent url("/assets/fff/icons/medal_gold_3.png") no-repeat 0 center
+	width: 16px;
+	height: 16px;
+	margin: 0px;
+	padding: 10px;
+}
+
+.post-detail {
+	font-size: .8em;
+	font-weight: bold;
+}
+
+div.ads {
+	margin-bottom: 10px;
+}
+
+.post-box {
+	height: 270px;
+	background-color: #FFFFFF;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.post-synopsis {
+	overflow: hidden;
+}
+
+/*
+
+.col-lg-4 {
+	max-width: 200px;
+}
+*/
+
+.tagline {
+	display: none;
+}
+
+#social-links {
+	height: 15px;
+	padding: 12px;
+}
+
+.post-title, 
+.post-title a,
+.featured-post-title, 
+.featured-post-title a {
+	font-size: 1.1em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+.featured-post-link {
+	text-align: center;
+	margin: -10px 0 10px 0px !important;
+	padding: 0px;
+	border-bottom: 1px solid #EEEEEE; 
+	clear: both;
+}
+
+.photo img,
+img.photo,
+.photo-left img,
+img.photo-left,
+.photo-right img,
+img.photo-right {
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+
+.photo-left {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.photo-right {
+	float: right;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+div.ads {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+
+/* Nomad Dictionary */
+
+dl {
+	border: none;
+	padding: 0.5em;
+}
+dt {
+	float: left;
+	clear: left;
+	width: 150px;
+	text-align: right;
+	font-weight: bold;
+	color: #000000;
+}
+dt:after {
+content: ":";
+}
+dd {
+margin: 0 0 0 155px;
+padding: 0 0 0.5em 0;
+}
+
+/*
+div.jumbotron {
+	background-image: url('http://farm6.staticflickr.com/5525/9625205406_1989d35759_o.jpg');
+	background-repeat: no-repeat;
+	background-postion: right bottom;
+}
+*/

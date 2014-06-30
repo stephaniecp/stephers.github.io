@@ -1,0 +1,5 @@
+name: Infinite Walkabout
+markdown: redcarpet
+pygments: true
+permalink: none
+excerpt_separator: <!--more-->

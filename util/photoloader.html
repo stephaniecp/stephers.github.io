@@ -1,0 +1,124 @@
+---
+layout: basic_bs
+title:  Earth Wandering Photo Loader Tool
+flickrkey: 2105c3f58a7d85488a10f2db6c151be1
+flickrsecret: 49c062ce5df1d77f 
+flickruserid: 100330886@N04
+samplephotoset: 72157635232920260
+---
+<script src="/js/phototools.js"></script>
+<script type="text/javascript">
+var flickrbase = 'http://api.flickr.com/services/rest/?jsoncallback=?';
+var pagelog = null;
+var output = null;
+
+$(document).ready(function() {
+});
+
+function getStarted() {
+	$("#userlabel").append(getUserId());	
+	$("#input_linkoptions").show("slow", function() {
+		$("#output").show();
+		$("#results_area").show();
+		loadPhotosets('{{page.flickrkey}}', getUserId(), $("#output"));
+	});
+}
+
+function getUserId() {
+	return $("#input_flickruserid").val();
+}
+
+function getOptionData() {
+	var optiondata = {
+		user: getUserId(),
+		size: $("#input_imgsize").val(),
+		includeimg: ($("#input_includeimg").is( ":checked" )),
+		imgclass: $("#input_imgclass").val(),
+		includelink: ($("#input_includelink").is( ":checked" )),
+		linkclass: $("#input_linkclass").val(),
+		showsetpreview: ($("#input_showsetpreview").is( ":checked" ))	
+	};
+	
+	console.log("Option Data: " + JSON.stringify(optiondata) + "\n");
+	
+	return optiondata;
+}
+
+function getPreviewOptionData() {
+	var optiondata = {
+		user: getUserId(),
+		size: "s",
+		includeimg: true,
+		imgclass: "previewphoto",
+		includelink: true,
+		linkclass: "previewlink",
+		showsetpreview: true	
+	};
+	
+	console.log("Option Data: " + JSON.stringify(optiondata) + "\n");
+	
+	return optiondata;
+}
+</script>
+
+<div id="input_user">
+
+	<fieldset>
+		<label for="input_flickruserid">Flickr User Id</label>
+		<input id="input_flickruserid" type="text" value="{{page.flickruserid}}" />
+		<input type="button" onclick="getStarted()" value="Load Flickr Sets" />
+	</fieldset>
+</div>
+
+<div id="input_linkoptions" style="display: none;">
+	<h2>Image Link Options</h2>
+	
+	<fieldset>
+	<div>
+		<label for="input_imgsize">Flickr Image Size</label>
+		<select id="input_imgsize">		
+			<option value="s">small square 75x75</option>
+			<option value="q">large square 150x150</option>
+			<option value="t">thumbnail, 100 on longest side</option>
+			<option value="m">small, 240 on longest side</option>
+			<option value="n">small, 320 on longest side</option>
+			<option value="" selected="selected">medium, 500 on longest side</option>
+			<option value="z">medium 640, 640 on longest side</option>
+			<option value="c">medium 800, 800 on longest side</option>
+			<option value="b">large, 1024 on longest side</option>
+			<!--
+			<option value="o">original image, either a jpg, gif or png, depending on source format</option>
+			-->		
+		</select>	
+	</div>
+	<div>
+		<input id="input_includeimg" type="checkbox" checked="checked" />
+		<label for="input_includeimg">Render Image Tag</a>
+
+		(<label for="input_imgclass">img tag class:</label>
+		<input id="input_imgclass" type="text" value="photo" size="10" />)
+		
+	</div>
+
+	<div>
+		<input id="input_includelink" type="checkbox" checked="checked" />
+		<label for="input_includelink">Render Link Around Images</a>
+		
+		(<label for="input_linkclass">link class:</label>
+		<input id="input_linkclass" type="text" value="photo-link" size="10" />)
+
+	</div>
+
+	<div>
+		<input id="input_showsetpreview" type="checkbox" checked="checked" />
+		<label for="input_showsetpreview">Show Set Preview</a>
+	</div>
+
+	</fieldset>
+</div>
+
+<div id="results_area" style="display: none;">
+	<div id="output">
+		<h2>Flickr Sets For User <span id="userlabel"></span><h2>
+	</div>
+</div>
