@@ -1,4 +1,41 @@
 
+function findPhotos(flickrKey, flickrUserId, searchText, outputArea) {
+	console.log("searchText: " + searchText);
+	var flickrargs = {format:'json', api_key: flickrKey, user_id: flickrUserId, text: searchText, method: 'flickr.photos.search'};	
+	console.log("Searching for images with args: " + JSON.stringify(flickrargs) + "\n");
+
+	$.getJSON(flickrbase, flickrargs, function(data) {		
+		console.log("results data:\n" + JSON.stringify(data) + "\n\n");
+
+		var optiondata = getOptionData();
+		var previewoptiondata = getPreviewOptionData();
+
+		var settarget = $('<pre></pre>');
+		var setpreviewtarget = $('<div></div>');
+		var setspan = $('<span></span>');
+
+		setpreviewtarget.append(setspan);
+		outputArea.append(setpreviewtarget);
+		outputArea.append(settarget);
+
+		$.each(data.photos.photo, function(index, photodata) {
+			console.log("title: " + photodata.title);
+		
+			settarget.append(getImageHtml(optiondata, photodata, ""));
+			settarget.append("\n");
+
+			if (optiondata.showsetpreview) {
+				setpreviewtarget.before(getImagePreviewHtml(previewoptiondata, photodata, ""));
+			}
+
+		});
+		console.log("Done iterating over data\n");
+		
+	});
+
+}
+
+
 function loadPhotosets(flickrKey, flickrUserId, outputArea) {
 	var flickrargs = {format:'json', api_key: flickrKey, user_id: flickrUserId, method: 'flickr.photosets.getList'};	
 	console.log("Loading photoset with args: " + JSON.stringify(flickrargs) + "\n");
@@ -115,7 +152,12 @@ function getImageUrl(optiondata, photodata) {
 
 function getImageFlickrUrl(userId, imageId, setId) {
 	//http://www.flickr.com/photos/100330886@N04/9594249168/in/set-72157635232920260
-	var url = "http://www.flickr.com/photos/" + userId + "/" + imageId + "/in/set-" + setId;
+
+	if (setId != "") {
+		var url = "http://www.flickr.com/photos/" + userId + "/" + imageId + "/in/set-" + setId;
+	} else {
+		var url = "http://www.flickr.com/photos/" + userId + "/" + imageId;
+	}
 	return url
 }
 

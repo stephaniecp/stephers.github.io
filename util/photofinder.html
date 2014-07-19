@@ -15,17 +15,19 @@ var output = null;
 $(document).ready(function() {
 });
 
-function getStarted() {
-	$("#userlabel").append(getUserId());	
-	$("#input_linkoptions").show("slow", function() {
-		$("#output").show();
-		$("#results_area").show();
-		loadPhotosets('{{page.flickrkey}}', getUserId(), $("#output"));
-	});
+function doSearch() {
+	var outputArea = $("#output");
+
+	outputArea.html("");
+	findPhotos('{{page.flickrkey}}', getUserId(), getText(), outputArea);
 }
 
 function getUserId() {
 	return $("#input_flickruserid").val();
+}
+
+function getText() {
+	return $("#input_searchtext").val();
 }
 
 function getOptionData() {
@@ -64,13 +66,18 @@ function getPreviewOptionData() {
 <div id="input_user">
 
 	<fieldset>
-		<label for="input_flickruserid">Flickr User Id</label>
-		<input id="input_flickruserid" type="text" value="{{page.flickruserid}}" />
-		<input type="button" onclick="getStarted()" value="Load Flickr Sets" />
+		<div>
+			<label for="input_flickruserid">Flickr User Id</label>
+			<input id="input_flickruserid" type="text" value="{{page.flickruserid}}" />
+		</div>
+		<div>			
+			<label for="input_searchtext">Search Text</label>
+			<input id="input_searchtext" type="text" value="IMG_3323" />
+		</div>
 	</fieldset>
 </div>
 
-<div id="input_linkoptions" style="display: none;">
+<div id="input_linkoptions">
 	<h2>Image Link Options</h2>
 	
 	<fieldset>
@@ -111,14 +118,18 @@ function getPreviewOptionData() {
 
 	<div>
 		<input id="input_showsetpreview" type="checkbox" checked="checked" />
-		<label for="input_showsetpreview">Show Set Preview</a>
+		<label for="input_showsetpreview">Show Image Previews</a>
+	</div>
+
+	<div>
+		<input type="button" onclick="doSearch()" value="Search For Matching Images" />
 	</div>
 
 	</fieldset>
 </div>
 
-<div id="results_area" style="display: none;">
+<div id="results_area">
 	<div id="output">
-		<h2>Flickr Sets For User <span id="userlabel"></span><h2>
+		<h2>Search Results<h2>
 	</div>
 </div>
