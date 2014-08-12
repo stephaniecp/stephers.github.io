@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title:  "Nomad Dictionary"
 date:   2013-08-21 11:00:00
 categories: dictionary
