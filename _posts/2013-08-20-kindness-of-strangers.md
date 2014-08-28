@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 layout: post
 title: "Kindness of Strangers"
 date: 2013-08-20 12:00:00

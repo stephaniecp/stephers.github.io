@@ -22,8 +22,8 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 **Fully Loaded Bike**
 
 
-<a class="photo-link photo" href="http://www.flickr.com/photos/100330886@N04/11761187056/in/set-72157639403163906"><img class="photo" title="Loaded Touring Bike Side View - IMG_1562" src="http://farm8.staticflickr.com/7426/11761187056_fed1b36a8e.jpg"></a>
-<a class="photo-link photo" href="http://www.flickr.com/photos/100330886@N04/11757848563/in/set-72157639403163906"><img class="photo" title="Loaded Touring Bike Front View - IMG_1564" src="http://farm8.staticflickr.com/7406/11757848563_a67afc3c7b.jpg"></a>
+<a class="photo-link photo photo-center" href="http://www.flickr.com/photos/100330886@N04/11761187056/in/set-72157639403163906"><img class="photo" title="Loaded Touring Bike Side View - IMG_1562" src="http://farm8.staticflickr.com/7426/11761187056_fed1b36a8e.jpg"></a>
+<a class="photo-link photo photo-center" href="http://www.flickr.com/photos/100330886@N04/11757848563/in/set-72157639403163906"><img class="photo" title="Loaded Touring Bike Front View - IMG_1564" src="http://farm8.staticflickr.com/7406/11757848563_a67afc3c7b.jpg"></a>
 
 - &diams; <a href="http://www.bikepedia.com/quickbike/BikeSpecs.aspx?year=2006&brand=Raleigh&model=Route+1#.UjQbJGQ6VU4">Raleigh Route 1</a> - A cheap, but sturdy bike that has been getting me around since 2006 or so
 - &diams; <a href="http://www.amazon.com/gp/product/B0028FRZ08/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0028FRZ08&linkCode=as2&tag=alofcr-20">Ortlieb Back Roller Classic Pannier</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B0028FRZ08" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
@@ -46,7 +46,7 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Unloaded Bike Side View (all of the bags at once from left to right)**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11758145264/in/set-72157639403163906"><img class="photo" title="Unloaded Touring Bike Side View - IMG_1561" src="http://farm4.staticflickr.com/3817/11758145264_9bdd502f56.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11758145264/in/set-72157639403163906"><img class="photo" title="Unloaded Touring Bike Side View - IMG_1561" src="http://farm4.staticflickr.com/3817/11758145264_9bdd502f56.jpg"></a>
 
 - &diams; Very light Mountain Hardware Scrambler Pack (<a href="http://www.amazon.com/gp/product/B008FHJUSI/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008FHJUSI&linkCode=as2&tag=alofcr-20">Newer Version</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B008FHJUSI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />)
 - Bell Bicycle Helmet (<a href="http://www.amazon.com/gp/product/B005OYGJS4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005OYGJS4&linkCode=as2&tag=alofcr-20">Similar Version</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B005OYGJS4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />)
@@ -58,7 +58,7 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Main Bag: The Kitchen**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11757996636/in/set-72157639403163906"><img class="photo" title="Main Bag: The Kitchen - IMG_1592" src="http://farm6.staticflickr.com/5537/11757996636_6cb0eecd23.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11757996636/in/set-72157639403163906"><img class="photo" title="Main Bag: The Kitchen - IMG_1592" src="http://farm6.staticflickr.com/5537/11757996636_6cb0eecd23.jpg"></a>
 
 - &diams; <a href="http://www.amazon.com/gp/product/B007S3MPL4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007S3MPL4&linkCode=as2&tag=alofcr-20">Olicamp Vector Stove</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B007S3MPL4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 - <a href="http://www.amazon.com/gp/product/B004S4EARI/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004S4EARI&linkCode=as2&tag=alofcr-20">BIC Disposable Lighter</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B004S4EARI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
@@ -69,7 +69,7 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Main Bag: Tools**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11758319596/in/set-72157639403163906"><img class="photo" title="Main Bag: Tools - IMG_1594" src="http://farm4.staticflickr.com/3773/11758319596_175591c662.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11758319596/in/set-72157639403163906"><img class="photo" title="Main Bag: Tools - IMG_1594" src="http://farm4.staticflickr.com/3773/11758319596_175591c662.jpg"></a>
 
 - <a href="http://www.amazon.com/gp/product/B00BHCBMOS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BHCBMOS&linkCode=as2&tag=alofcr-20">Sawyer Water Filtration System</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B00BHCBMOS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (It's hard to know if a water filter has saved you or not.  I've used this one many times without getting sick though and I do like the design)
 - &diams; <a href="http://www.amazon.com/gp/product/B009B0MY6S/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009B0MY6S&linkCode=as2&tag=alofcr-20">Canon PowerShot G15</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B009B0MY6S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (pretend it is in the case)
@@ -87,7 +87,7 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Sub-Bag: General Gear**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11756960543/in/set-72157639403163906"><img class="photo" title="Sub-Bag: General Gear - IMG_1602" src="http://farm4.staticflickr.com/3820/11756960543_de16007f38.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11756960543/in/set-72157639403163906"><img class="photo" title="Sub-Bag: General Gear - IMG_1602" src="http://farm4.staticflickr.com/3820/11756960543_de16007f38.jpg"></a>
 
 - &diams; <a href="http://www.amazon.com/gp/product/B002MFK7H2/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002MFK7H2&linkCode=as2&tag=alofcr-20">Energizer Headlamp</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B002MFK7H2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (These headlamps are cheap and have a red light.  Mine have gotten flakey over the years, but were very solid for many years.)
 - <a href="http://www.amazon.com/gp/product/B0010FWZ7A/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0010FWZ7A&linkCode=as2&tag=alofcr-20">Coghlan's First Aid Kit</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B0010FWZ7A" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
@@ -105,7 +105,7 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Sub-Bag: Bike Tools and Parts**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11757769563/in/set-72157639403163906"><img class="photo" title="Sub-Bag: Bike Tools and Parts - IMG_1595" src="http://farm4.staticflickr.com/3671/11757769563_43cb238f71.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11757769563/in/set-72157639403163906"><img class="photo" title="Sub-Bag: Bike Tools and Parts - IMG_1595" src="http://farm4.staticflickr.com/3671/11757769563_43cb238f71.jpg"></a>
 
 - &diams; <a href="http://www.amazon.com/gp/product/B000FI6YOS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FI6YOS&linkCode=as2&tag=alofcr-20">Topeak Road Morph G Bike Pump with Gauge</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B000FI6YOS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (the gauge and flexible hose are very nice on a long trip)
 - <a href="http://www.amazon.com/gp/product/B002IDZXRM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002IDZXRM&linkCode=as2&tag=alofcr-20">Chain Lube</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B002IDZXRM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
@@ -122,7 +122,7 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Main Bag: Camping Gear With Pineapple**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11756988664/in/set-72157639403163906"><img class="photo" title="Main Bag: Camping Gear With Pineapple - IMG_1605" src="http://farm6.staticflickr.com/5510/11756988664_79fa2f396f.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11756988664/in/set-72157639403163906"><img class="photo" title="Main Bag: Camping Gear With Pineapple - IMG_1605" src="http://farm6.staticflickr.com/5510/11756988664_79fa2f396f.jpg"></a>
 
 - &diams;&diams; <a href="http://www.amazon.com/gp/product/B001C1UGZ0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001C1UGZ0&linkCode=as2&tag=alofcr-20">Hennessy Explorer Deluxe Asym</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B001C1UGZ0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.  This tent choice probably deserves a post to itself, but if you are travelling in heavily wooded areas, this is probably the most low impact, low profile tent that you can get.
 - 20 degree (F) bag
@@ -133,8 +133,8 @@ I'll start with pictures of the bike loaded up and ready to ride and then go int
 
 **Main Bag: Clothing (ALL of it)**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11756813734/in/set-72157639403163906"><img class="photo" title="Main Bag: Clothing (All of it) - IMG_1607" src="http://farm4.staticflickr.com/3756/11756813734_2fca578f7a.jpg"></a>
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14724142214/in/set-72157639403163906"><img class="photo" title="Cycling Jacket" src="http://farm4.staticflickr.com/3845/14724142214_279845d7db.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11756813734/in/set-72157639403163906"><img class="photo" title="Main Bag: Clothing (All of it) - IMG_1607" src="http://farm4.staticflickr.com/3756/11756813734_2fca578f7a.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/14724142214/in/set-72157639403163906"><img class="photo" title="Cycling Jacket" src="http://farm4.staticflickr.com/3845/14724142214_279845d7db.jpg"></a>
 
 
 I can be sure after 3 months of travelling that I had too much clothing.  The farther I travelled, the more I realized that I didn't need to be as clean as I expected at home.  All the same, I am documenting what I had and not speculating about what I should have had.
@@ -164,7 +164,7 @@ I can be sure after 3 months of travelling that I had too much clothing.  The fa
 **Sub-Bag: Toiletries**
 
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14539870278/in/set-72157639403163906"><img class="photo" title="Sub-Bag- Toiletries" src="http://farm3.staticflickr.com/2926/14539870278_23911a2aae.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/14539870278/in/set-72157639403163906"><img class="photo" title="Sub-Bag- Toiletries" src="http://farm3.staticflickr.com/2926/14539870278_23911a2aae.jpg"></a>
 
 - Toothbrush
 - Floss (with 2 sewing needles in the case)
@@ -179,7 +179,7 @@ I can be sure after 3 months of travelling that I had too much clothing.  The fa
 
 **Backpack: Hats, Knitting, etc.**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11756582154/in/set-72157639403163906"><img class="photo" title="Backpack: Hats, Knitting, etc. - IMG_1649" src="http://farm3.staticflickr.com/2864/11756582154_3b86586767.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11756582154/in/set-72157639403163906"><img class="photo" title="Backpack: Hats, Knitting, etc. - IMG_1649" src="http://farm3.staticflickr.com/2864/11756582154_3b86586767.jpg"></a>
 
 - Sony Stereo Condenser Microphone
 - Small tripod (good for microphone or camera)
@@ -197,7 +197,7 @@ I can be sure after 3 months of travelling that I had too much clothing.  The fa
 
 **Sub-Bag: Electronics**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/11756546375/in/set-72157639403163906"><img class="photo" title="Sub-Bag: Electronics - IMG_1652" src="http://farm3.staticflickr.com/2852/11756546375_62a933d5b0.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/11756546375/in/set-72157639403163906"><img class="photo" title="Sub-Bag: Electronics - IMG_1652" src="http://farm3.staticflickr.com/2852/11756546375_62a933d5b0.jpg"></a>
 
 - Rechargeable USB Battery (with nearly useless solar panel decoration).  Almost none of these auxilary charges is well reviewed.  This one held up well and could charge my iPhone 4 about 1.5 times.  So it worked, but I'm not in love with it.  You can find it here: <a href="http://www.amazon.com/gp/product/B005ZSVZRY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005ZSVZRY&linkCode=as2&tag=alofcr-20">Ultra Thin Solar Powered Backup Charger</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B005ZSVZRY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 - 2 iphone charging cables
@@ -213,7 +213,7 @@ I can be sure after 3 months of travelling that I had too much clothing.  The fa
 
 **Survival Pouch and Belt**
 
-<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14540069807/in/set-72157639403163906"><img class="photo" title="Survival Pouch and Belt" src="http://farm4.staticflickr.com/3866/14540069807_dddccd294a.jpg"></a>
+<a class="photo-link photo-center" href="http://www.flickr.com/photos/100330886@N04/14540069807/in/set-72157639403163906"><img class="photo" title="Survival Pouch and Belt" src="http://farm4.staticflickr.com/3866/14540069807_dddccd294a.jpg"></a>
 
 - &diams; <a href="http://www.amazon.com/gp/product/B000LG823K/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000LG823K&linkCode=as2&tag=alofcr-20">Leatherman Charge</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B000LG823K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.  This is a very heavy duty tool.  I wish it was lighter sometimes, but it is fantastic.  Keep it lubed with the chain lube if you use it around salt water.
 - <a href="http://www.amazon.com/gp/product/B000093ILJ/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000093ILJ&linkCode=as2&tag=alofcr-20">Brunton Mirrored Map Compass</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=alofcr-20&l=as2&o=1&a=B000093ILJ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 layout: post
 title:  "Port Townsend Wooden Boat Festival, sept. 6-8th"
 date:   2013-09-30 13:00:00

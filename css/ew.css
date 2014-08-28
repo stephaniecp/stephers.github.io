@@ -101,7 +101,7 @@ img.photo-right {
 	margin-bottom: 5px;
 }
 
-.photo-center {
+.photo-center, .photo-center img {
 	display: block;
     margin-left: auto;
     margin-right: auto
