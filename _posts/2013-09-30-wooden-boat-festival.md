@@ -1,7 +1,7 @@
 ---
 featured: false
 layout: post
-title:  "Port Townsend Wooden Boat Festival, sept. 6-8th"
+title:  "Port Townsend Wooden Boat Festival"
 date:   2013-09-30 13:00:00
 categories: festival boats
 author: Steph

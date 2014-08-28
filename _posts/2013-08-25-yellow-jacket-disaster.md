@@ -1,37 +1,33 @@
 ---
-published: false
+published: true
 layout: post
 title:  "Yellow Jacket Disaster"
 date:   2013-08-25 14:00:00
 categories: gear adventure nudity
 author: Jon
 synopsis: Ever been naked and stung by yellow jackets?
-mainpic: http://farm3.staticflickr.com/2825/9615549611_cf779a9c5d_q.jpg
+mainpic: http://farm4.staticflickr.com/3849/15043201596_90642c0969_q.jpg
 ---
 
 **Sometimes you might take a joke too far (<a href="/gear/touring-cycle-gear-inventory.html">see</a>)...**
 
-<a href="http://www.flickr.com/photos/100330886@N04/9618505088/in/set-72157635280120830"><img title="Clothing Pannier Pic - Pre Yellow Jackets" src="http://farm6.staticflickr.com/5461/9618505088_f1d620011b.jpg" /></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/15043201596"><img class="photo" title="Clothing Pannier Pic - Pre Yellow Jackets" src="http://farm4.staticflickr.com/3849/15043201596_90642c0969.jpg"></a>
 
 **Separately, somebody might step in this...**
 
-<a href="http://www.flickr.com/photos/100330886@N04/9615544809/in/set-72157635280120830"><img title="yellow_jacket_nest" src="http://farm8.staticflickr.com/7304/9615544809_1051805a6d.jpg" /></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/15043091906"><img class="photo" title="yellow_jacket_nest" src="http://farm6.staticflickr.com/5575/15043091906_653317f0cc.jpg"></a>
+
 
 **Then you wait.**
 
-Naked (of course) until they calm down a bit and you can retrieve your rain er, ninja gear (and maybe a bottle of port)...
+Until they calm down a bit and you can retrieve your rain er, ninja gear (and maybe a bottle of port)...
 
-<a href="http://www.flickr.com/photos/100330886@N04/9615547437/in/set-72157635280120830"><img title="IMG_1620" src="http://farm6.staticflickr.com/5350/9615547437_a463c3e180.jpg" /></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/15063224091"><img class="photo" title="IMG_1620" src="http://farm4.staticflickr.com/3873/15063224091_8dd3694983.jpg"></a>
 
 **READY!**
 
-<a href="http://www.flickr.com/photos/100330886@N04/9615549611/in/set-72157635280120830"><img title="IMG_1626" src="http://farm3.staticflickr.com/2825/9615549611_cf779a9c5d.jpg" /></a>
-
-**Wait a second, where did that ninja mask come from?**
-
-<a href="http://www.flickr.com/photos/100330886@N04/9618788620/in/set-72157635280120830"><img title="steph_yellow_jackets" src="http://farm8.staticflickr.com/7328/9618788620_807f747f3b.jpg" /></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/15066079962"><img class="photo" title="IMG_1626" src="http://farm4.staticflickr.com/3920/15066079962_cfcd013c27.jpg"></a>
 
 **VICTORY!**
 
-<a href="http://www.flickr.com/photos/100330886@N04/9615548495/in/set-72157635280120830"><img title="IMG_1635" src="http://farm6.staticflickr.com/5446/9615548495_c14f5614af.jpg" /></a>
-<a href="http://www.flickr.com/photos/100330886@N04/9618792888/in/set-72157635280120830"><img title="IMG_1644" src="http://farm6.staticflickr.com/5504/9618792888_1b14966061.jpg" /></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/15065827322/in/set-72157646554438239"><img class="photo" title="IMG_1643" src="http://farm4.staticflickr.com/3866/15065827322_4f7a565838.jpg"></a>
