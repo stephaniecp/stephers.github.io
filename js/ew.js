@@ -21,3 +21,13 @@ function roll_tagline() {
 	//});
 	set_tagline();
 }
+
+function showJonsEmail() {
+	$(".jonshiddenemail").html("jongarrison");
+	$(".jonshiddenemail").append("@gmail.com");
+}
+
+function showStephsEmail() {
+	$(".stephshiddenemail").html("stephers.cp");
+	$(".stephshiddenemail").append("@gmail.com");
+}
