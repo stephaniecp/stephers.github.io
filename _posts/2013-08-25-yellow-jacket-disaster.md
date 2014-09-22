@@ -1,10 +1,12 @@
 ---
 published: true
+featured: true
 layout: post
 title:  "Yellow Jacket Disaster"
 date:   2013-08-25 14:00:00
 categories: gear adventure nudity
 author: Jon
+featuredsynopsis: Ever been naked and stung by yellow jackets?
 synopsis: Ever been naked and stung by yellow jackets?
 mainpic: http://farm4.staticflickr.com/3849/15043201596_90642c0969_q.jpg
 ---

@@ -5,7 +5,7 @@ title:  "Cheap-ish Touring Cycle Gear Illustrated"
 date:   2013-08-25 13:00:00
 categories: gear
 author: Jon
-featuredsynopsis: Before leaving on my long bike trip, I looked all over for a good complete touring gear list.  Sure there are a few out there, but none showed how to properly pack a pineapple and so I decided to create my own pictorial gear list with very specific descriptions and links off to the gear where possible.  This gear kept me on the road for over two months.  Some items could be trimmed down still, but I've been pretty pleased with the items I have in different riding and camping situations.  I have a tendency to be on the cheap side for most of the items I buy, but I make exceptions for items that I really need to rely on.  All hail Ortlieb Panniers.
+featuredsynopsis: Before leaving on my long bike trip, I looked all over for a good complete touring gear list.  Sure there are a few out there, but none showed how to properly pack a pineapple and so I decided to create my own...
 synopsis: Pictures of all my gear and detailed descriptions of all.  Warning-some nudity
 mainpic: http://farm3.staticflickr.com/2866/11758232006_6d284012bf_q.jpg
 ---

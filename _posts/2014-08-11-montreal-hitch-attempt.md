@@ -1,6 +1,6 @@
 ---
 published: true
-featured: true
+featured: false
 layout: post
 title:  "Montreal Hitch Attempt"
 date:   2014-08-11 13:00:00
