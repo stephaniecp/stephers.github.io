@@ -1,6 +1,6 @@
 ---
 published: true
-featured: true
+featured: false
 layout: post
 title:  "Traveling Now!"
 date:   2014-09-30 13:00:00

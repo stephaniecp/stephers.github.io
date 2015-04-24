@@ -1,6 +1,6 @@
 ---
 published: true
-featured: true
+featured: false
 layout: post
 title:  "The Moldy Backpack"
 date:   2013-11-05 13:00:00

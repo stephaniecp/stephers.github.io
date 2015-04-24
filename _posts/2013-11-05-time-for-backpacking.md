@@ -1,6 +1,6 @@
 ---
 published: true
-featured: true
+featured: false
 layout: post
 title:  "Time For Backpacking"
 date:   2013-11-05 12:00:00
