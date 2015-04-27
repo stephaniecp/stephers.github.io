@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 featured: true
 layout: post
 title:  "Gone And Forgotten"
