@@ -1,0 +1,93 @@
+---
+published: false
+featured: true
+layout: post
+title:  "Gone And Forgotten"
+date:   2015-04-27 13:00:00
+categories: abandoned bc cannery sailing
+author: Jon
+featuredsynopsis: The allure of ruins is powerful, getting to peer into other people's abandoned belongings, trying to figure out what life was like when a place was last inhabited.  I got to visit an abandoned BC cannery town and explore...
+mainpic: https://farm6.staticflickr.com/5572/14132353117_fe65cd8f56_q_d.jpg
+---
+
+<ul><li>
+    Full album: <a href="http://www.flickr.com/photos/100330886@N04/sets/72157652129931922">Abandoned BC Cannery</a>
+</li></ul>
+
+
+The allure of ruins is powerful, getting to peer into other people's abandoned belongings, trying to figure out what life was like when a place was last inhabited.
+
+I was lucky enough to crew on a friend's 1930's wooden sailing boat on his seasonal commute through the Inside Passage up to Alaska.  Moving at the speed of sail, we got to take in a lot of sights along the way.  As we worked our way further North, each stop became more removed from familiar life.  By the time we encountered the abandoned cannery town of Namu on the Northern BC coast, it was like each landing was an episode of Star Trek, with us forming away teams and exploring alien places.  Actually though given that we were cooking with wood and sailing, it was more like we were on Captain Cook's Endeavor than Captain Kirk's Enterprise.
+
+In the '80's British Columbia's coastal canneries were tested by changes in technology.  Many fishing boats started adding refrigeration equipment and could get their catches to larger ports.  Namu was one of the canneries that didn't make it.  Our first distant sighting of Namu revealed a large rusty ghost ship that had been left tied up next to a warehouse like building.  The building and the ship looked like they had been battling for a long time.  The freighter seemed to be winning.  We anchored off one of the old warehouses and rowed to shore.  Finding a place to land was unusual because of the amount of rusty debris and steep shores.  We finally settled on using a rusty old ladder to climb up to a pier that had decayed to the strength of balsa wood.  There was a lot to explore.  We would find out later that the town had a series of caretakers in the decades since it was abandoned, but we had arrived just months after the last caretakers had left.  We yelled "hello" loudly as we walked around the buildings both for potential people and bears.
+
+Decades can have drastic effects on some items and almost no effect on others.  In one warehouse, we found pallets of diet soda in cans.  The cases of cans were still shrink wrapped in plastic, but somehow were completely empty without obvious signs of bursting.  In an old marine store office, there was a wall of baseball caps that look like they had been hung up yesterday.  The marine store still had hundreds of fuel filters sitting almost neatly on the shelves.
+
+Most people maintain some sort of fantasy about living simply away from civilization.  The reality of that fantasy rarely gets tested.  Even with minimal sobriety, the fear of a late mortgage payment or a poorly prepared cappuccino doesn't hold weight against starving to death in the woods or trying to fend off a bear.  Despite this, ruins like Namu fan the flames of such fantasies.  So much is ready to use.  How long could we survive on the overflowing pallets of Eastern European rose jam in the market attic?  What is Rose Jam and how long does it stay edible?
+
+In the small thrift store, there were plenty of warm clothes and boots.  In the tool shops there were many useful bits and pieces.  Plenty of the warehouses had solid roofs that even an incompetent survivalist could have made a reasonable shelter underneath.  We explored quietly contemplating the usefulness of things.  In the end though, we left it as it was.  The adventure of scraping by in the world can be done as well or better amongst people as it can in the wilderness and after all, the whiskey was on the boat.
+
+Later that night, the captain and I decided we should have a row to do some more exploring.  The mystery of the large rusty freighter was calling.  How could something so decrepit looking have stayed tied up and floating for so long?  After many accusations from the 2 other crew that we were "jumpy monkeys" we pushed off in the rowboat and headed off into the inky darkness.  Jumpy monkeys are apparently the ones that have a higher tendency to take dangerous risks.  Ok, fine, we wouldn't climb any trees.  This time instead of approaching from the dock we decided to climb the side of the freighter like pirates raiding an oil tanker.  After making it up the side in perfectly calm conditions, I had to wonder about how desperate somebody would have to be attempt this at sea on a ship moving at full speed.  The ship was leaned over to one side and we could tell from its movements earlier in the day that it wasn't aground.  However, the ship hadn't suddenly capsized in many years of bashing up against its building and the captain and I in many years of living had never been aboard a ship that suddenly sank and so following jumpy monkey logic, what could possibly go wrong?  The most obvious goal of being aboard the ship was to determine how ready it was for a sea voyage.  We were able to find the approximate location of the rudder shaft on the rear deck.  There was a large lever arm in place attached to the shaft, but the ancient machinery that had once moved it was gone.  The captain, a master wooden boatwright thought we might be able to attach a tiller arm long enough to move it.  As there weren't the 20 other jumpy monkeys we'd need to attempt this with, we moved on to the next logical task which was a search for the engine.  For all the accusations against us, a counting of our limbs and digits will tell you that we are actually a couple of reasonably cautious monkeys and so the next phase of the adventure did cause us some hesitation.  Despite this, we did find our way down through what had once been an insulated hold that was now partially filled with murky water to a door the size of a car that had luckily rusted wide open.  Past the door we found the engine was still aboard, even if it was partially submerged.  Check and check, the ship probably had a rudder and definitely had an engine, she was practically ready to go!  Anyway it was time for bed and so we went back to the ship that actually had a chance of going somewhere.
+
+As we looked over the edge of the rusty freighter, the symmetry of the captain's beautiful skin on frame rowboat was askew.  An oar was missing.  We don't need to talk about this part too much, he and I know who stowed the oars last.  With one oar and a small wooden board the trip back to the sailboat was fine.  In the morning, the captain impressed us with his wood working skills as he shaped a perfectly matching oar out of a rough piece of cedar.  It was worth the loss of an oar just to see a gifted woodworker make a new oar with minimal tools on a failing pier.  Like the oar, the captain's whole sailboat was a testament to his skills and resourcefulness.  Restoring his sailboat was a project that would take most people a lifetime and this was his second such project.  When you can see the value in everything around you, the whole world becomes like a Namu filled with useful bits and pieces waiting to do something useful.
+
+Having explored Namu without losing any of the away team, we hauled up anchor and headed off to explore the next alien shore.
+
+
+Notes
+* Namu and the rusty old freighter have not escaped notice.  It turns out that a campaign has recently been waged to get the freighter moved to a safer place and cleaned up:  http://pacificwild.org/site/take_action/namu-b.c.-action.html
+
+
+
+<ul><li>
+    Full album: <a href="http://www.flickr.com/photos/100330886@N04/sets/72157652129931922">Abandoned BC Cannery</a>
+</li></ul>
+
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132353117/in/set-72157652129931922"><img class="photo" title="IMG_2482" src="http://farm6.staticflickr.com/5572/14132353117_fe65cd8f56.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318889835/in/set-72157652129931922"><img class="photo" title="IMG_2485" src="http://farm3.staticflickr.com/2938/14318889835_d7230382aa.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318241914/in/set-72157652129931922"><img class="photo" title="IMG_2490" src="http://farm3.staticflickr.com/2923/14318241914_42fa6b1ea6.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14315550111/in/set-72157652129931922"><img class="photo" title="IMG_2491" src="http://farm4.staticflickr.com/3793/14315550111_dfd2700676.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132267750/in/set-72157652129931922"><img class="photo" title="IMG_2498" src="http://farm4.staticflickr.com/3791/14132267750_bfddd71b5e.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14295835856/in/set-72157652129931922"><img class="photo" title="_MG_7271" src="http://farm3.staticflickr.com/2904/14295835856_f2d0629551.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132218058/in/set-72157652129931922"><img class="photo" title="IMG_2509" src="http://farm6.staticflickr.com/5311/14132218058_48ed36556d.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14317069482/in/set-72157652129931922"><img class="photo" title="IMG_2511" src="http://farm3.staticflickr.com/2899/14317069482_934cd3c7ea.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132266030/in/set-72157652129931922"><img class="photo" title="IMG_2515" src="http://farm3.staticflickr.com/2933/14132266030_57d6f966d1.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132232559/in/set-72157652129931922"><img class="photo" title="IMG_2532" src="http://farm6.staticflickr.com/5489/14132232559_0428ed82f8.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318989465/in/set-72157652129931922"><img class="photo" title="_MG_7287" src="http://farm4.staticflickr.com/3793/14318989465_32059bf5c9.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132264980/in/set-72157652129931922"><img class="photo" title="IMG_2545" src="http://farm6.staticflickr.com/5319/14132264980_272bf48a77.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132453317/in/set-72157652129931922"><img class="photo" title="_MG_7289" src="http://farm3.staticflickr.com/2903/14132453317_92c546903b.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132322818/in/set-72157652129931922"><img class="photo" title="_MG_7294" src="http://farm6.staticflickr.com/5518/14132322818_f7e3b68e7a.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132336539/in/set-72157652129931922"><img class="photo" title="_MG_7301" src="http://farm3.staticflickr.com/2938/14132336539_76edc4a40b.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318339734/in/set-72157652129931922"><img class="photo" title="_MG_7302" src="http://farm3.staticflickr.com/2937/14318339734_4b6e47ed42.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14315648651/in/set-72157652129931922"><img class="photo" title="_MG_7305" src="http://farm3.staticflickr.com/2939/14315648651_8005e19059.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14317067142/in/set-72157652129931922"><img class="photo" title="IMG_2550" src="http://farm3.staticflickr.com/2925/14317067142_ce939aa483.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14295728136/in/set-72157652129931922"><img class="photo" title="IMG_2553" src="http://farm6.staticflickr.com/5079/14295728136_71447cdb8a.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132263300/in/set-72157652129931922"><img class="photo" title="IMG_2554" src="http://farm3.staticflickr.com/2917/14132263300_8202da1ef9.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132229509/in/set-72157652129931922"><img class="photo" title="IMG_2556" src="http://farm4.staticflickr.com/3791/14132229509_c155438bbe.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14295725896/in/set-72157652129931922"><img class="photo" title="IMG_2557" src="http://farm3.staticflickr.com/2924/14295725896_d6b947c535.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132320028/in/set-72157652129931922"><img class="photo" title="_MG_7308" src="http://farm4.staticflickr.com/3791/14132320028_f6ce75df97.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318337734/in/set-72157652129931922"><img class="photo" title="_MG_7317" src="http://farm6.staticflickr.com/5557/14318337734_a716fe84c9.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132332989/in/set-72157652129931922"><img class="photo" title="_MG_7319" src="http://farm3.staticflickr.com/2913/14132332989_b04865e573.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318881205/in/set-72157652129931922"><img class="photo" title="IMG_2565" src="http://farm4.staticflickr.com/3794/14318881205_06c5f21302.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318880475/in/set-72157652129931922"><img class="photo" title="IMG_2567" src="http://farm3.staticflickr.com/2920/14318880475_a9f38879a9.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14317062492/in/set-72157652129931922"><img class="photo" title="IMG_2573" src="http://farm3.staticflickr.com/2913/14317062492_57cee94f7a.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132210138/in/set-72157652129931922"><img class="photo" title="IMG_2592" src="http://farm3.staticflickr.com/2903/14132210138_0c85d9d5f1.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14317061342/in/set-72157652129931922"><img class="photo" title="IMG_2593" src="http://farm3.staticflickr.com/2939/14317061342_cfd5a55a76.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14339065783/in/set-72157652129931922"><img class="photo" title="IMG_2594" src="http://farm3.staticflickr.com/2922/14339065783_623699e312.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318229974/in/set-72157652129931922"><img class="photo" title="IMG_2605" src="http://farm6.staticflickr.com/5318/14318229974_98d4704df9.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14317059622/in/set-72157652129931922"><img class="photo" title="IMG_2608" src="http://farm6.staticflickr.com/5198/14317059622_f38fa2f4ed.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14315538091/in/set-72157652129931922"><img class="photo" title="IMG_2609" src="http://farm6.staticflickr.com/5572/14315538091_484e2c4156.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132317778/in/set-72157652129931922"><img class="photo" title="_MG_7331" src="http://farm6.staticflickr.com/5236/14132317778_525dda5187.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132331249/in/set-72157652129931922"><img class="photo" title="_MG_7332" src="http://farm6.staticflickr.com/5592/14132331249_cfdfc85736.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132316528/in/set-72157652129931922"><img class="photo" title="_MG_7333" src="http://farm4.staticflickr.com/3794/14132316528_cb1f8c0612.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14295827106/in/set-72157652129931922"><img class="photo" title="_MG_7336" src="http://farm6.staticflickr.com/5200/14295827106_188dc3cd46.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318981435/in/set-72157652129931922"><img class="photo" title="_MG_7341" src="http://farm3.staticflickr.com/2923/14318981435_b78f7fd1a9.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14315537431/in/set-72157652129931922"><img class="photo" title="IMG_2626" src="http://farm3.staticflickr.com/2896/14315537431_a3dae6a06c.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14317057832/in/set-72157652129931922"><img class="photo" title="IMG_2632" src="http://farm4.staticflickr.com/3793/14317057832_f2b4e94b21.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132337447/in/set-72157652129931922"><img class="photo" title="IMG_2634" src="http://farm3.staticflickr.com/2907/14132337447_1c9d593359.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318226234/in/set-72157652129931922"><img class="photo" title="IMG_2640" src="http://farm3.staticflickr.com/2926/14318226234_7df5546100.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14132220029/in/set-72157652129931922"><img class="photo" title="IMG_2641" src="http://farm3.staticflickr.com/2896/14132220029_2fe7bb94ec.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318224804/in/set-72157652129931922"><img class="photo" title="IMG_2644" src="http://farm6.staticflickr.com/5313/14318224804_b36fd6f75a.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14318224004/in/set-72157652129931922"><img class="photo" title="IMG_2646" src="http://farm4.staticflickr.com/3791/14318224004_835a6bc536.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14315533281/in/set-72157652129931922"><img class="photo" title="IMG_2648" src="http://farm6.staticflickr.com/5160/14315533281_9174b42158.jpg"></a>
+<a class="photo-link" href="http://www.flickr.com/photos/100330886@N04/14295715396/in/set-72157652129931922"><img class="photo" title="IMG_2652" src="http://farm6.staticflickr.com/5480/14295715396_f338811473.jpg"></a>
