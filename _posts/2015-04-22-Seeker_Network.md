@@ -21,9 +21,12 @@ More importantly though, are they going to send us a lifetime supply of Michelob
 
 <ul>
 <li>
-   More details about the Seeker Networks video <a href="http://seekernetwork.com/thishappenedhere/biking-2-400-miles-down-the-california-coast/">Here</a>
+    You can find all the pics from our trip that the segment is based on <a href="https://www.flickr.com/photos/earthwandering/sets/72157646928615774/">Here</a>.
 </li>
 <li>
- You can find all the pics from our trip that the segment is based on <a href="https://www.flickr.com/photos/earthwandering/sets/72157646928615774/">Here</a>.
+    <a href="http://seekernetwork.com/thishappenedhere/biking-2-400-miles-down-the-california-coast/">More details about the Seeker Networks story and video</a>
+</li>
+ <li>
+    <a href="https://www.youtube.com/watch?v=JHi7XLizszI">The same video from Seeker Network's youtube channel</a>
  </li>
  </ul>
