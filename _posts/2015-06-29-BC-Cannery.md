@@ -3,7 +3,7 @@ published: true
 featured: true
 layout: post
 title:  "Gone And Forgotten"
-date:   2015-06-11 13:00:00
+date:   2015-06-29 13:00:00
 categories: abandoned bc cannery sailing
 author: Jon
 featuredsynopsis: What is it about ruins that is so alluring?  Is it that we get to peer into other people's lives frozen in debris like Pompeii?  Is it the hope of stumbling across lost treasure?  Is it a secret desire to get tetanus?  I got to visit an abandoned BC cannery town and explore...
